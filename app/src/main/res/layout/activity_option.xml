@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nirav.connectsmilies.optionActivity"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/easyMode"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:alpha="0.5"
+        android:background="@android:color/holo_orange_light"
+        android:fontFamily="serif"
+        android:onClick="three"
+        android:text="3 connect wins"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@android:color/holo_orange_light" />
+
+    <Button
+        android:id="@+id/ultraMode"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:alpha="0.5"
+        android:background="@android:color/holo_orange_light"
+        android:fontFamily="serif"
+        android:onClick="four"
+        android:text="4 connect wins"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easyMode" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nirav.connectsmilies.ultra2Activity"
+    android:background="@drawable/images">
+
+
+    <GridLayout
+        android:id="@+id/ultragridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ultra"
+        android:columnCount="4"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="0"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="0"
+            android:onClick="dropin"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="0"
+            android:onClick="dropin"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="0"
+            android:onClick="dropin"
+            android:tag="2" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="0"
+            android:onClick="dropin"
+            android:tag="3" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="0"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="1"
+            android:onClick="dropin"
+            android:tag="4" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="1"
+            android:onClick="dropin"
+            android:tag="5" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="1"
+            android:onClick="dropin"
+            android:tag="6" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="1"
+            android:onClick="dropin"
+            android:tag="7" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="0"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="30dp"
+            android:layout_row="2"
+            android:onClick="dropin"
+            android:tag="8" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_row="2"
+            android:onClick="dropin"
+            android:tag="9" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_row="2"
+            android:onClick="dropin"
+            android:tag="10" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_row="2"
+            android:onClick="dropin"
+            android:tag="11" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="0"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="3"
+            android:onClick="dropin"
+            android:tag="12" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="3"
+            android:onClick="dropin"
+            android:tag="13" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="3"
+            android:onClick="dropin"
+            android:tag="14" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_column="3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_row="3"
+            android:onClick="dropin"
+            android:tag="15" />
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/playagainlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="25dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/winner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="TextView"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/playagainButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:onClick="playAgain"
+        android:text="Play Again"
+        android:gravity="center"
+        app:layout_constraintRight_toLeftOf="@id/homeButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintTop_toBottomOf="@id/ultragridLayout"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:onClick="menu"
+        android:text="menu"
+        android:gravity="center"
+        app:layout_constraintRight_toLeftOf="@id/modeButton"
+        app:layout_constraintLeft_toRightOf="@id/playagainButton"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintTop_toBottomOf="@id/ultragridLayout"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/modeButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:onClick="mode"
+        android:text="mode"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/homeButton"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintTop_toBottomOf="@id/ultragridLayout"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/fourconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 connect wins"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ultragridLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="26dp" />
+
+</android.support.constraint.ConstraintLayout>
